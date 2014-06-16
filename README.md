@@ -26,27 +26,27 @@ git clone https://github.com/chuyik/jekyll-foundation-sass-compass-base.git
 ```
 
 #### Install the plugins ####
-* install Grunt
+* Install Grunt
   ```shell
   npm install -g grunt-cli
   ```
 
-* install Bower
+* Install Bower
   ```shell
   npm install -g bower
   ```
 
-* install plugins listed on `package.json`
+* Install plugins listed on `package.json`
   ```shell
   npm install --save-dev
   ```
   
-* install plugins listed on `bower.json`
+* Install plugins listed on `bower.json`
   ```shell
   bower install
   ```
 
-* install plugins listed on `Gemfile`
+* Install plugins listed on `Gemfile`
   ```shell
   bundle install
   ```
