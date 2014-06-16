@@ -67,6 +67,6 @@ git clone https://github.com/chuyik/jekyll-foundation-sass-compass-base.git
   ```
 
 ## Done? ##
-Open [http://localhost:4000](http://localhost:4000), and congrats if you can see the alert comes up like this.
+Open [http://localhost:4000](http://localhost:4000), and congrats if you can see the alert comes up like this, and no error msgs on cmd.
 
 ![Screenshot](screenshot/screenshot-1.png)
