@@ -1,5 +1,5 @@
 # jekyll-foundation-sass-compass-base #
-> Ready for jekyll development with foundation/sass/compass/liverload/grunt built-in.
+> A empty base for jekyll development with foundation/sass/compass/liverload/grunt built-in.
 
 > **NOTE:**
 > The base was built up on **Windows 7**, and it should work for Mac OS X.
@@ -51,7 +51,7 @@ git clone https://github.com/chuyik/jekyll-foundation-sass-compass-base.git
   bundle install
   ```
 
-#### How to start local server and watcher ####
+#### Start local server and watcher ####
 * Start jekyll local server and watcher
 > What watcher means: whenever scss/js/images file changes, it will be recompiled and redeployed, and page will be automatically reloaded.
 
