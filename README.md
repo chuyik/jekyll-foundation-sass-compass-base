@@ -53,7 +53,7 @@ git clone https://github.com/chuyik/jekyll-foundation-sass-compass-base.git
 
 #### How to start local server and watcher ####
 * Start jekyll local server and watcher
-> Watcher means: Whenever scss and js file changes, it will be recompiled and redeployed, and page will be automatically reloaded.
+> What watcher means: whenever scss/js/images file changes, it will be recompiled and redeployed, and page will be automatically reloaded.
 
   ```shell
   grunt
@@ -70,4 +70,3 @@ git clone https://github.com/chuyik/jekyll-foundation-sass-compass-base.git
 Open [http://localhost:4000](http://localhost:4000), and congrats if you can see the alert comes up like this.
 
 ![Screenshot](screenshot/screenshot-1.png)
-
