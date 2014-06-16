@@ -26,36 +26,48 @@ git clone https://github.com/chuyik/jekyll-foundation-sass-compass-base.git
 ```
 
 #### Install the plugins ####
-```shell
-bundle install
-```
-```shell
-npm install -g grunt-cli
-```
-```shell
-npm install -g bower
-```
-```shell
-npm install --save-dev
-```
-```shell
-bower install
-```
+* install Grunt
+  ```shell
+  npm install -g grunt-cli
+  ```
 
-#### Start local server and watcher ####
-* First, it will start jekyll local server
-* Second, whenever scss and js file changes, it will recompile and redeploy and reload your page.
+* install Bower
+  ```shell
+  npm install -g bower
+  ```
+
+* install plugins listed on `package.json`
+  ```shell
+  npm install --save-dev
+  ```
+  
+* install plugins listed on `bower.json`
+  ```shell
+  bower install
+  ```
+
+* install plugins listed on `Gemfile`
+  ```shell
+  bundle install
+  ```
+
+#### How to start local server and watcher ####
+* Start jekyll local server and watcher
+> Watcher means: Whenever scss and js file changes, it will be recompiled and redeployed, and page will be automatically reloaded.
+
   ```shell
   grunt
   ```
 
-* Rebuild the jekyll html with very fast speed, using [jekyll-plus](https://github.com/imathis/guard-jekyll-plus)
+* Regenerate the jekyll html files with highspeed
+> Powered by [jekyll-plus](https://github.com/imathis/guard-jekyll-plus)
+
   ```shell
   bundle exec guard -p
   ```
 
 ## Done? ##
-Open http://localhost:4000/, and if you can see the alert comes up like this, congrats.
+Open [http://localhost:4000](http://localhost:4000), and congrats if you can see the alert comes up like this.
 
 ![Screenshot](screenshot/screenshot-1.png)
 
